@@ -11,8 +11,8 @@
 html, body, #root {
   height: 100%;
   margin: 0;
-  background-color: #321006; /* Your dark background */
-  overflow-x: hidden; /* Prevent horizontal scroll */
+  background-color: #321006;
+  overflow-x: hidden;
 }
 
 .app-container {
