@@ -16,7 +16,9 @@ const InstagramLogo = () => (
 
 function App() {
   return (
-    <div className="app-container">
+    <>
+      <Logo className="watermark" />
+       <div className="app-container">
       <header className="header">
         <div className="logo-text-group">
           <Logo className="logo" />
@@ -38,6 +40,8 @@ function App() {
         </a>
       </div>
     </div>
+    </>
+   
   );
 }
 
